@@ -18,22 +18,22 @@ from pyrogram import filters
 
 load_dotenv()
 
-API_ID = int(getenv("API_ID", ""))
-API_HASH = getenv("API_HASH")
+API_ID = int(getenv("API_ID", "23272158"))
+API_HASH = getenv("API_HASH", "9c6b7311bf4b00c649674db048c52cbf")
 
-BOT_TOKEN = getenv("BOT_TOKEN")
+BOT_TOKEN = getenv("BOT_TOKEN", "6508386922:AAFLNzk3fMLRIUjcFGXtewk8QEJ9o0KSBfM")
 
-MONGO_DB_URI = getenv("MONGO_DB_URI", None)
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://Kingbrukh:kingkhan@kingbruh.ra3pjgm.mongodb.net/?retryWrites=true&w=majority")
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", "900"))
 
 SONG_DOWNLOAD_DURATION = int(getenv("SONG_DOWNLOAD_DURATION_LIMIT", "180"))
 
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", ""))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1002028213552"))
 
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "konuşanlar music")
 
-OWNER_ID = int(getenv("OWNER_ID", None))
+OWNER_ID = int(getenv("OWNER_ID", "7575713445"))
 
 HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
@@ -89,7 +89,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", "1073741824"))
 COOKIES = getenv("COOKIES", None)
 # https://batbin.me
 
-STRING1 = getenv("STRING_SESSION", None)
+STRING1 = getenv("STRING_SESSION", "AgFjGt4AAzWubewyrf2i82Z-y92Kcr5bIxRf7J6BkyvlQB2qG0Rbg9XHQhJo48aLSKmjSsZaHUNZNSKLs-hwDSweyz992hqt0ou-_6JHj57c2ENBxcFZvbu0cL7jHntLkRpy16WVffBDUuLZUtQELuYeo8YEJcjlf1Z4BKFlWVVAIJJELcIp0XFTnLqyCHpEfeCEKIFOyOV-FULnz9B8M6oD7qJsdRgdfg3ylPttn6zFTlgfY8YzG7sZQXZxLLfkXV6NkVbz8EcnCyWiWq4kdg4eDFkvGAyuHqjzsOKmGCqTpDQg6-mTzgdz82FSP_A4dtaObMHNRWfLtADJzgqFoDGaU4DNIwAAAAHDjDalAA")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
